@@ -1,0 +1,17 @@
+{{ var }}
+
+{{ user.first_name }}
+
+{% if 1 > 0 %}
+    {{ var }}
+
+{%endif%}
+
+{% for item in item_list%}
+    {{ item }}
+
+{%endif%}
+
+{{value|capfirst}}
+
+{{ user.date_birth|data:"D m Y" }}
