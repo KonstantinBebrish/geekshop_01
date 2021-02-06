@@ -82,6 +82,6 @@ def contact(request):
         }
     ]
     content = {"title": title, "visit_date": visit_date, "locations": locations}
-    return render(request, "mainapp/contact.html")
+    return render(request, "mainapp/contact.html", content)
     
 
